@@ -1,0 +1,9 @@
+A simple sample application, as simple as it gets - showing how easy it is to
+build an MochiWeb embedded application, using the Maven Erlang Plug-In
+packaged MochiWeb artifact.
+
+More about Maven Erlang Plug-In at http://erlang-plugin.sourceforge.net/
+
+NOTE: In this example I'm using the 2.0.0-SNAPSHOT version of the plugin,
+that is still under development. The project is hosted on Sourceforge, at
+http://sourceforge.net/projects/erlang-plugin/.
