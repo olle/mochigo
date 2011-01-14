@@ -2,12 +2,19 @@ A simple sample application, as simple as it gets - showing how easy it is to
 build an MochiWeb embedded application, using the Maven Erlang Plug-In
 packaged MochiWeb artifact.
 
-To compile and run, simply use:
+To compile and run, simply do the following:
 
+> # 1) we get and install the MochiWeb artifact
+> git clone git@github.com:olle/mochiweb.git
+> cd mochiweb
+> mvn install
+> cd ../
+> # 2) Getting MochiGo and run the app starter
 > git clone https://github.com/olle/mochigo.git
+> cd mochigo
 > mvn erlang:run
 
-And browse to http://localhost:8888/ and you should see "MochiGo!".
+Now you can browse to http://localhost:8888/ and you should see "MochiGo!".
 
 More about Maven Erlang Plug-In at http://erlang-plugin.sourceforge.net/
 
